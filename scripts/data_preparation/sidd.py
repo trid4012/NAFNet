@@ -12,6 +12,7 @@ from multiprocessing import Pool
 from os import path as osp
 from tqdm import tqdm
 
+import basicsr
 from basicsr.utils import scandir_SIDD
 from basicsr.utils.create_lmdb import create_lmdb_for_SIDD
 
