@@ -22,7 +22,7 @@ def main():
     opt['n_thread'] = 20
     opt['compression_level'] = 3
 
-    opt['input_folder'] = './datasets/SIDD/Data'
+    opt['input_folder'] = '/kaggle/input/sidd-denoising/SIDD_Medium_Srgb/Data'
     opt['save_folder'] = './datasets/SIDD/train/input_crops'
     opt['crop_size'] = 512
     opt['step'] = 384
